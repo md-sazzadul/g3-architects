@@ -59,7 +59,7 @@ nav {
     color: #727272;
 }
 
-.banner button {
+.explore {
     background-color: #FF900E;
     border: none;
     border-radius: 8px;
@@ -74,4 +74,54 @@ nav {
 
 .banner img {
     width: 100%;
+}
+
+/* ------------------ feature Section Start ------------------- */
+.features-container {
+    padding: 80px 200px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.feature-images img { 
+    width: 100%;
+}
+
+.feature-description {
+    width: 360px;
+}
+
+.feature-description h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #727272;
+    line-height: 36px;
+}
+
+.feature-black {
+    font-weight: 700;
+    color: #131313;
+}
+
+.feature-orange {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.feature-description p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #727272;
 }
